@@ -69,8 +69,24 @@ public class Intro
 
         list.add(2,100);
         System.out.println(list.toString());
+       
+        // size() which will give the size of the array
+        System.out.println(list.toString());
+        System.out.println(list.size());
 
+        // to print the arraylist
 
+        for(int i=1;i<=list.size();i++)
+        {
+            System.out.println(list.get(i-1));
+        }
+
+        for(int i:list)
+        {
+            System.out.println(i);
+        }
+
+        
 
 
     }
