@@ -15,6 +15,15 @@ public class Sort {
 
         System.out.println(list);
         // it will be sorted in ascending order
+        // for descending order
+
+
+        Collections.sort(list,Collections.reverseOrder());
+        // Collections.reverseOrder() was a comparitor
+
+        System.out.println(list.toString());
+        // in descending order
+
         
 
     }
