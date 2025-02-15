@@ -12,7 +12,7 @@ public class Intro
         
         // dynamic siz e property will sove the fixed size property 
 
-        ArrayList<Integer> a=new ArrayList<>();
+        //ArrayList<Integer> a=new ArrayList<>();
 
         // we can store the objects of the Integer class not primitively
 
@@ -20,8 +20,8 @@ public class Intro
 
         // various classes for the Arraylist to store
 
-        ArrayList<String> b=new ArrayList<>();
-        ArrayList<Boolean> c=new ArrayList<>();
+        //ArrayList<String> b=new ArrayList<>();
+        //ArrayList<Boolean> c=new ArrayList<>();
 
         // similar to the vectors in the c++
         // this was the part of the java collections framework
@@ -87,7 +87,12 @@ public class Intro
         }
 
         
+        // Arraylist will behave as an arrays but it will change in some parts of implementation
 
+        // when we declare the Arraylist it will form the array of some fixed size then the array completely/half filled
+
+        // then java will create a new array of double size and then cpies all elements to it 
+        
 
     }
 }
