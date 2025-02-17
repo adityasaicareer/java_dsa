@@ -19,15 +19,18 @@ public class Multidimprac {
         Main.add(a);
         Main.add(b);
         Main.add(c);
-
+        //b.remove(2);
         System.out.println(Main);
         for(int i=1;i<=Main.size();i++)
         {
             for(int j=1;j<=Main.get(i-1).size();j++)
             {
-                System.out.println(Main.get(i-1).get(j-1));
+                System.out.print(Main.get(i-1).get(j-1)+" ");
             }
+            System.out.println();
         }
+
+
     }
     
 }
